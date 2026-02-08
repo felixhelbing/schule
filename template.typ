@@ -14,9 +14,9 @@
 )
 
 #let aufgabe(label, inhalt, beschreibung) = [
-  *#label:* #inhalt
-
   *Aufgabe:* #beschreibung
+
+  *#label:* #inhalt
 ]
 
 #show heading: it => block(
