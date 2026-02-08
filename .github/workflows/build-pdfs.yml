@@ -44,14 +44,14 @@ jobs:
         run: gh release delete latest --yes --cleanup-tag 2>/dev/null || true
 
       - name: Publish
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: latest
-          name: Latest
-          target_commitish: ${{ github.sha }}
-          files: out/*.pdf
-          fail_on_unmatched_files: true
-          generate_release_notes: false
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create latest out/*.pdf \
+            --title "Latest" \
+            --notes "" \
+            --target "${{ github.sha }}"
+          release_id=$(gh api "repos/${{ github.repository }}/releases/tags/latest" --jq '.id')
+          gh api --method PATCH "repos/${{ github.repository }}/releases/$release_id" \
+            -F exclude_source_code_archives=true
 
