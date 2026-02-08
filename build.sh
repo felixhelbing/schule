@@ -6,8 +6,8 @@ mkdir -p "$OUTDIR"
 shopt -s nullglob
 
 BUILDS=(
-  "template.typ:in/uebungen:Satzbau"
-  "template-abschreiben.typ:in/abschreiben:Schreibübungen"
+  "template.typ:in/satzbau:Satzbau"
+  "template-abschreiben.typ:in/schreibuebung:Schreibübung"
 )
 
 for entry in "${BUILDS[@]}"; do
