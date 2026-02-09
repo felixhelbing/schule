@@ -1,4 +1,4 @@
-#import "common.typ": data, template
+#import "common.typ": data, template, titel
 #show: template
 
 #let aufgabe(label, inhalt, beschreibung) = [
@@ -16,11 +16,7 @@
 
 #set heading(numbering: "1.")
 
-#align(center)[
-  #block(below: 12pt)[
-    #text(size: 20pt, weight: "bold")[Deutsch]
-  ]
-]
+#titel("Deutsch")
 
 = Ändere den Satz
 #aufgabe("Satz", data.aendern_satz, "Schreibe einen neuen Satz mit dem gleichen Satzbau, aber mit anderen Wörtern (andere Person, anderer Ort, andere Handlung).")

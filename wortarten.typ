@@ -1,11 +1,7 @@
-#import "common.typ": data, template
+#import "common.typ": data, template, titel
 #show: template
 
-#align(center)[
-  #block(below: 12pt)[
-    #text(size: 20pt, weight: "bold")[Wortarten]
-  ]
-]
+#titel("Wortarten")
 
 *Aufgabe:* Lies den Text. Unterstreiche alle *Nomen* mit Blau, alle *Verben* mit Rot und alle *Adjektive* mit Grün.
 

@@ -1,11 +1,7 @@
-#import "common.typ": data, template
+#import "common.typ": data, template, titel
 #show: template
 
-#align(center)[
-  #block(below: 12pt)[
-    #text(size: 20pt, weight: "bold")[Abschreiben]
-  ]
-]
+#titel("Abschreiben")
 
 *Aufgabe:* Schreibe den Text langsam und ruhig ab. Wenn etwas nicht gut aussieht, schreibe einfach weiter.
 

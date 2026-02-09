@@ -7,9 +7,15 @@
   )
   set text(size: 14pt)
   set par(
-    leading: 0.8em,
-    spacing: 1.2em,
+    leading: 1.0em,
+    spacing: 1.4em,
     justify: false,
   )
   body
 }
+
+#let titel(name) = align(center)[
+  #block(below: 20pt)[
+    #text(size: 20pt, weight: "bold")[#name]
+  ]
+]
