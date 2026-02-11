@@ -10,6 +10,7 @@ BUILDS=(
   "schreibuebung.typ:in/schreibuebung:Schreibuebung"
   "wortarten.typ:in/wortarten:Wortarten"
   "leseuebung.typ:in/leseuebung:Leseuebung"
+  "subtraktion.typ:in/subtraktion:Subtraktion"
 )
 
 for entry in "${BUILDS[@]}"; do
