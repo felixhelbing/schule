@@ -1,4 +1,4 @@
-* Schule
+* Schul-Arbeitsblätter
 
 Arbeitsblätter für die Grundschule. Generiert mit [[https://typst.app][Typst]].
 
@@ -6,7 +6,7 @@ Arbeitsblätter für die Grundschule. Generiert mit [[https://typst.app][Typst]]
 
 Die aktuellen PDFs stehen als Download bereit:
 
-[[https://github.com/felixhelbing/schule/releases/latest][Latest Release (PDFs)]]
+[[https://github.com/felixhelbing/school-worksheets/releases/latest][Latest Release (PDFs)]]
 
 Bei jedem Push auf =main= werden die PDFs automatisch neu gebaut und als =latest=-Release veröffentlicht.
 Der Workflow kann bei Bedarf auch manuell über GitHub Actions gestartet werden.
