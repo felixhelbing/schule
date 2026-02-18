@@ -13,12 +13,16 @@ Der Workflow kann bei Bedarf auch manuell über GitHub Actions gestartet werden.
 
 ** Kategorien
 
-| Kategorie     | Beschreibung                                      | Links                                                         |
-|---------------+---------------------------------------------------+---------------------------------------------------------------|
-| Satzbau       | Sätze ändern, retten, weiterschreiben, freier Text | [[./satzbau.typ][Template]] · [[./in/satzbau/][Daten]]                 |
-| Schreibuebung | Sätze sauber abschreiben                          | [[./schreibuebung.typ][Template]] · [[./in/schreibuebung/][Daten]] |
-| Wortarten     | Nomen, Verben und Adjektive im Text markieren     | [[./wortarten.typ][Template]] · [[./in/wortarten/][Daten]]         |
-| Leseuebung    | Texte laut vorlesen                               | [[./leseuebung.typ][Template]] · [[./in/leseuebung/][Daten]]       |
+| Kategorie              | Beschreibung                                       | Links                                                                             |
+|------------------------+----------------------------------------------------+-----------------------------------------------------------------------------------|
+| Satzbau                | Sätze ändern, retten, weiterschreiben, freier Text | [[./satzbau.typ][Template]] · [[./in/satzbau/][Daten]]                             |
+| Schreibuebung          | 3 Sätze abschreiben mit Schreiblinien              | [[./schreibuebung.typ][Template]] · [[./in/schreibuebung/][Daten]]                 |
+| Wortarten              | Nomen, Verben und Adjektive im Text markieren      | [[./wortarten.typ][Template]] · [[./in/wortarten/][Daten]]                         |
+| Leseuebung             | Texte laut vorlesen                                | [[./leseuebung.typ][Template]] · [[./in/leseuebung/][Daten]]                       |
+| Addition               | Zweistellige Addition ohne Übertrag                | [[./addition.typ][Template]] · [[./in/addition/][Daten]]                           |
+| Addition Übertrag      | Zweistellige Addition mit Übertrag                 | [[./addition-uebertrag.typ][Template]] · [[./in/addition-uebertrag/][Daten]]       |
+| Subtraktion            | Zweistellige Subtraktion ohne Übertrag             | [[./subtraktion.typ][Template]] · [[./in/subtraktion/][Daten]]                     |
+| Subtraktion Übertrag   | Zweistellige Subtraktion mit Übertrag              | [[./subtraktion-uebertrag.typ][Template]] · [[./in/subtraktion-uebertrag/][Daten]] |
 
 ** Lokal bauen
 
@@ -39,10 +43,14 @@ Die erzeugten PDFs liegen danach in =out/=.
 
 #+begin_example
 in/
-  satzbau/         → satzbau.typ
-  schreibuebung/   → schreibuebung.typ
-  wortarten/       → wortarten.typ
-  leseuebung/      → leseuebung.typ
+  satzbau/               → satzbau.typ
+  schreibuebung/         → schreibuebung.typ
+  wortarten/             → wortarten.typ
+  leseuebung/            → leseuebung.typ
+  addition/              → addition.typ
+  addition-uebertrag/    → addition-uebertrag.typ
+  subtraktion/           → subtraktion.typ
+  subtraktion-uebertrag/ → subtraktion-uebertrag.typ
 #+end_example
 
 Pro Kategorie gibt es ein Typst-Template und ein Eingabeverzeichnis mit YAML-Dateien.
