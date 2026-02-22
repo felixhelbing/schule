@@ -23,6 +23,7 @@ Der Workflow kann bei Bedarf auch manuell über GitHub Actions gestartet werden.
 | Addition Übertrag      | Zweistellige Addition mit Übertrag                 | [[./addition-uebertrag.typ][Template]] · [[./in/addition-uebertrag/][Daten]]       |
 | Subtraktion            | Zweistellige Subtraktion ohne Übertrag             | [[./subtraktion.typ][Template]] · [[./in/subtraktion/][Daten]]                     |
 | Subtraktion Übertrag   | Zweistellige Subtraktion mit Übertrag              | [[./subtraktion-uebertrag.typ][Template]] · [[./in/subtraktion-uebertrag/][Daten]] |
+| Zeitformen             | Verben konjugieren in allen Zeitformen (Querformat) | [[./zeitformen.typ][Template]] · [[./in/zeitformen/][Daten]]                       |
 
 ** Lokal bauen
 
@@ -51,6 +52,7 @@ in/
   addition-uebertrag/    → addition-uebertrag.typ
   subtraktion/           → subtraktion.typ
   subtraktion-uebertrag/ → subtraktion-uebertrag.typ
+  zeitformen/            → zeitformen.typ
 #+end_example
 
 Pro Kategorie gibt es ein Typst-Template und ein Eingabeverzeichnis mit YAML-Dateien.

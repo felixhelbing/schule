@@ -14,6 +14,7 @@ BUILDS=(
   "subtraktion-uebertrag.typ:in/subtraktion-uebertrag:Subtraktion_Uebertrag"
   "addition.typ:in/addition:Addition"
   "addition-uebertrag.typ:in/addition-uebertrag:Addition_Uebertrag"
+  "zeitformen.typ:in/zeitformen:Zeitformen"
 )
 
 for entry in "${BUILDS[@]}"; do
